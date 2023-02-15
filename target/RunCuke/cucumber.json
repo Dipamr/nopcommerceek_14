@@ -1,0 +1,1501 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 47218345300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "verify user Should Navigate To Computer Page Successfully",
+        "description": "User click on computer tab\r\nUser able to verify Computer Text",
+        "id": "computer-page-test;verify-user-should-navigate-to-computer-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 895103800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6481057600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "verify user Should Navigate To Desktops Page Successfully",
+        "description": "User click on computer tab\r\nUser click on Desktops link\r\nUser verify Desktops text",
+        "id": "computer-page-test;verify-user-should-navigate-to-desktops-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 851826500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7505129300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "verify That User should Build your own Computer And add Them To cart successfully",
+        "description": "",
+        "id": "computer-page-test;verify-that-user-should-build-your-own-computer-and-add-them-to-cart-successfully;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2296549500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 420658000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User on homepage",
+            "match": {
+              "location": "MyStepsLogin.user_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 127005000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on Computer tab",
+            "match": {
+              "location": "MyStepsComputer.click_on_Computer_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20643631400,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027page-body\u0027]/div[1]/div[1]/div[1]/div[1]/h2/a\"}\n  (Session info: chrome\u003d110.0.5481.96)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.6.0\u0027, revision: \u002779f1c02ae20\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [dfc0db7bcfd1fb13783b01408cb2bdef, findElement {using\u003dxpath, value\u003d//div[@class\u003d\u0027page-body\u0027]/div[1]/div[1]/div[1]/div[1]/h2/a}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.96, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\\Users\\alpes\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52684}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52684/devtoo..., se:cdpVersion: 110.0.5481.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: dfc0db7bcfd1fb13783b01408cb2bdef\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\r\n\tat com.nopcommerce.demo.utility.Utility.clickOnElement(Utility.java:52)\r\n\tat com.nopcommerce.demo.pages.ComputerPage.clickOnDesktopsLink(ComputerPage.java:61)\r\n\tat com.nopcommerce.demo.steps.MyStepsComputer.click_on_Desktops_link(MyStepsComputer.java:15)\r\n\tat ✽.And click on Desktops link(src/test/java/resources/featurefile/Computer.feature:16)\r\n",
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "click on Desktops link",
+            "match": {
+              "location": "MyStepsComputer.click_on_Desktops_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "click on product name Build your own computer",
+            "match": {
+              "location": "MyStepsComputer.click_on_product_name_Build_your_own_computer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "select processor \"2.2Ghz Intel Pentium Dual-Core E2200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2.2Ghz Intel Pentium Dual-Core E2200",
+                  "offset": 18
+                }
+              ],
+              "location": "MyStepsComputer.select_processor(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "select Ram \"2 GB\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2 GB",
+                  "offset": 12
+                }
+              ],
+              "location": "MyStepsComputer.select_Ram(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "select HDD \"320 GB\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "320 GB",
+                  "offset": 12
+                }
+              ],
+              "location": "MyStepsComputer.select_HDD(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "select OS \"Vista Home [+$50.00\"]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vista Home [+$50.00",
+                  "offset": 11
+                }
+              ],
+              "location": "MyStepsComputer.select_OS(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "select Software \"Microsoft Office [+$50.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Microsoft Office [+$50.00]",
+                  "offset": 17
+                }
+              ],
+              "location": "MyStepsComputer.select_Software(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "click on Add to cart button \"\u003cAdd to Cart\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cAdd to Cart",
+                  "offset": 29
+                }
+              ],
+              "location": "MyStepsComputer.click_on_Add_to_cart_button(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8725132000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "verify That User should Build your own Computer And add Them To cart successfully",
+        "description": "",
+        "id": "computer-page-test;verify-that-user-should-build-your-own-computer-and-add-them-to-cart-successfully;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1599347000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 30900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User on homepage",
+            "match": {
+              "location": "MyStepsLogin.user_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 118111200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on Computer tab",
+            "match": {
+              "location": "MyStepsComputer.click_on_Computer_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20035302900,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027page-body\u0027]/div[1]/div[1]/div[1]/div[1]/h2/a\"}\n  (Session info: chrome\u003d110.0.5481.96)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.6.0\u0027, revision: \u002779f1c02ae20\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [61cc3fff54ee954f12cc0d25fcb6e52d, findElement {using\u003dxpath, value\u003d//div[@class\u003d\u0027page-body\u0027]/div[1]/div[1]/div[1]/div[1]/h2/a}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.96, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\\Users\\alpes\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52703}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52703/devtoo..., se:cdpVersion: 110.0.5481.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 61cc3fff54ee954f12cc0d25fcb6e52d\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\r\n\tat com.nopcommerce.demo.utility.Utility.clickOnElement(Utility.java:52)\r\n\tat com.nopcommerce.demo.pages.ComputerPage.clickOnDesktopsLink(ComputerPage.java:61)\r\n\tat com.nopcommerce.demo.steps.MyStepsComputer.click_on_Desktops_link(MyStepsComputer.java:15)\r\n\tat ✽.And click on Desktops link(src/test/java/resources/featurefile/Computer.feature:16)\r\n",
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "click on Desktops link",
+            "match": {
+              "location": "MyStepsComputer.click_on_Desktops_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "click on product name Build your own computer",
+            "match": {
+              "location": "MyStepsComputer.click_on_product_name_Build_your_own_computer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "select processor \"2.5Ghz Intel Pentium Dual-Core E2200 [+$15.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2.5Ghz Intel Pentium Dual-Core E2200 [+$15.00]",
+                  "offset": 18
+                }
+              ],
+              "location": "MyStepsComputer.select_processor(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "select Ram \"4 GB[+$20.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4 GB[+$20.00]",
+                  "offset": 12
+                }
+              ],
+              "location": "MyStepsComputer.select_Ram(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "select HDD \"400 GB [+$100.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400 GB [+$100.00]",
+                  "offset": 12
+                }
+              ],
+              "location": "MyStepsComputer.select_HDD(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "select OS \"\"Vista Premium [+$60.00]\"",
+            "match": {},
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "select Software \"Acrobat Reader [+$10.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Acrobat Reader [+$10.00]",
+                  "offset": 17
+                }
+              ],
+              "location": "MyStepsComputer.select_Software(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "click on Add to cart button \"\u003cAdd to Cart\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cAdd to Cart",
+                  "offset": 29
+                }
+              ],
+              "location": "MyStepsComputer.click_on_Add_to_cart_button(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 20947948800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "verify That User should Build your own Computer And add Them To cart successfully",
+        "description": "",
+        "id": "computer-page-test;verify-that-user-should-build-your-own-computer-and-add-them-to-cart-successfully;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1328872100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 45600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User on homepage",
+            "match": {
+              "location": "MyStepsLogin.user_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 116470600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on Computer tab",
+            "match": {
+              "location": "MyStepsComputer.click_on_Computer_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20058615600,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027page-body\u0027]/div[1]/div[1]/div[1]/div[1]/h2/a\"}\n  (Session info: chrome\u003d110.0.5481.96)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.6.0\u0027, revision: \u002779f1c02ae20\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e86a93d8d35813984c6fda6cb1f7c414, findElement {using\u003dxpath, value\u003d//div[@class\u003d\u0027page-body\u0027]/div[1]/div[1]/div[1]/div[1]/h2/a}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.96, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\\Users\\alpes\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52723}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52723/devtoo..., se:cdpVersion: 110.0.5481.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e86a93d8d35813984c6fda6cb1f7c414\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\r\n\tat com.nopcommerce.demo.utility.Utility.clickOnElement(Utility.java:52)\r\n\tat com.nopcommerce.demo.pages.ComputerPage.clickOnDesktopsLink(ComputerPage.java:61)\r\n\tat com.nopcommerce.demo.steps.MyStepsComputer.click_on_Desktops_link(MyStepsComputer.java:15)\r\n\tat ✽.And click on Desktops link(src/test/java/resources/featurefile/Computer.feature:16)\r\n",
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "click on Desktops link",
+            "match": {
+              "location": "MyStepsComputer.click_on_Desktops_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "click on product name Build your own computer",
+            "match": {
+              "location": "MyStepsComputer.click_on_product_name_Build_your_own_computer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "select processor \"2.5 Ghz Intel Pentium Dual-Core E2200 [+$15.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2.5 Ghz Intel Pentium Dual-Core E2200 [+$15.00]",
+                  "offset": 18
+                }
+              ],
+              "location": "MyStepsComputer.select_processor(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "select Ram \"8GB [+$60.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8GB [+$60.00]",
+                  "offset": 12
+                }
+              ],
+              "location": "MyStepsComputer.select_Ram(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "select HDD \"320 GB\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "320 GB",
+                  "offset": 12
+                }
+              ],
+              "location": "MyStepsComputer.select_HDD(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "select OS \"Vista Home [+$50.00]\"",
+            "match": {},
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "select Software \"Total Commander[+$5.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Total Commander[+$5.00]",
+                  "offset": 17
+                }
+              ],
+              "location": "MyStepsComputer.select_Software(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "click on Add to cart button \"\u003cAdd to Cart\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cAdd to Cart",
+                  "offset": 29
+                }
+              ],
+              "location": "MyStepsComputer.click_on_Add_to_cart_button(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Computer Page Test",
+    "description": "User should able to build computer",
+    "id": "computer-page-test",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefile/Computer.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6904175000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User should navigate to login page successfully",
+        "description": "",
+        "id": "login-test;user-should-navigate-to-login-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 753469400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 50500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User on homepage",
+            "match": {
+              "location": "MyStepsLogin.user_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1187547300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on login link",
+            "match": {
+              "location": "MyStepsLogin.user_click_on_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 138016300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User verify the Welcome, Please Sign In! message display",
+            "match": {
+              "location": "MyStepsLogin.user_verify_the_Welcome_Please_Sign_In_message_display()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7669191600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verify That User Should Login Successfully With Valid Credentials",
+        "description": "",
+        "id": "login-test;verify-that-user-should-login-successfully-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1631707400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1091018600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click on login link",
+            "match": {
+              "location": "MyStepsLogin.user_click_on_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 152967600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enter emailField \"road@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "road@gmail.com",
+                  "offset": 23
+                }
+              ],
+              "location": "MyStepsLogin.user_enter_emailField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152784100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enter passwordField \"121212\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "121212",
+                  "offset": 26
+                }
+              ],
+              "location": "MyStepsLogin.user_enter_passwordField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 741480200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User click on login button",
+            "match": {
+              "location": "MyStepsLogin.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20022186100,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class\u003d\u0027ico-logout\u0027]\"}\n  (Session info: chrome\u003d110.0.5481.96)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.6.0\u0027, revision: \u002779f1c02ae20\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2dc7c153f9a660fa12294df1f73fa963, findElement {using\u003dxpath, value\u003d//a[@class\u003d\u0027ico-logout\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.96, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\\Users\\alpes\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53243}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53243/devtoo..., se:cdpVersion: 110.0.5481.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2dc7c153f9a660fa12294df1f73fa963\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\r\n\tat com.nopcommerce.demo.utility.Utility.clickOnElement(Utility.java:52)\r\n\tat com.nopcommerce.demo.pages.LoginPage.clickOnLogOutLink(LoginPage.java:63)\r\n\tat com.nopcommerce.demo.steps.MyStepsLogin.user_verify_Log_out_link_display(MyStepsLogin.java:46)\r\n\tat ✽.Then User verify Log out link display(src/test/java/resources/featurefile/Login.feature:17)\r\n",
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "User verify Log out link display",
+            "match": {
+              "location": "MyStepsLogin.user_verify_Log_out_link_display()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8761073700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "verify The Error Message With  InValid Credentials",
+        "description": "",
+        "id": "login-test;verify-the-error-message-with--invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 984656000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1127427800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User click on login link",
+            "match": {
+              "location": "MyStepsLogin.user_click_on_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 133340200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enter emailField \"rod@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rod@gmail.com",
+                  "offset": 23
+                }
+              ],
+              "location": "MyStepsLogin.user_enter_emailField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131048100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enter passwordField \"121212\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "121212",
+                  "offset": 26
+                }
+              ],
+              "location": "MyStepsLogin.user_enter_passwordField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 494609900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User click on login button",
+            "match": {
+              "location": "MyStepsLogin.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58584900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User verify the error message display",
+            "match": {
+              "location": "MyStepsLogin.user_verify_the_error_message_display()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6719943500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "verify That User Should LogOut SuccessFully",
+        "description": "",
+        "id": "login-test;verify-that-user-should-logout-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1021795700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1141735700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click on login link",
+            "match": {
+              "location": "MyStepsLogin.user_click_on_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121286600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User enter emailField \"rat@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rat@gmail.com",
+                  "offset": 23
+                }
+              ],
+              "location": "MyStepsLogin.user_enter_emailField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115033500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User enter passwordField \"121212\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "121212",
+                  "offset": 26
+                }
+              ],
+              "location": "MyStepsLogin.user_enter_passwordField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 497437300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User click on login button",
+            "match": {
+              "location": "MyStepsLogin.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20110989200,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class\u003d\u0027ico-logout\u0027]\"}\n  (Session info: chrome\u003d110.0.5481.96)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.6.0\u0027, revision: \u002779f1c02ae20\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [8b730de2dd99baa15365136698e4a065, findElement {using\u003dxpath, value\u003d//a[@class\u003d\u0027ico-logout\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.96, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\\Users\\alpes\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53280}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53280/devtoo..., se:cdpVersion: 110.0.5481.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 8b730de2dd99baa15365136698e4a065\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\r\n\tat com.nopcommerce.demo.utility.Utility.clickOnElement(Utility.java:52)\r\n\tat com.nopcommerce.demo.pages.LoginPage.clickOnLogOutLink(LoginPage.java:63)\r\n\tat com.nopcommerce.demo.steps.MyStepsLogin.user_click_on_log_out_link(MyStepsLogin.java:56)\r\n\tat ✽.And User click on log out link(src/test/java/resources/featurefile/Login.feature:31)\r\n",
+              "status": "failed"
+            },
+            "line": 31,
+            "name": "User click on log out link",
+            "match": {
+              "location": "MyStepsLogin.user_click_on_log_out_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "User verify Login link display",
+            "match": {
+              "location": "MyStepsLogin.user_verify_Login_link_display()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "User Should able to login into nop commerce website",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefile/Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4949576900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "verify User Should Navigate To Register Page  successfully",
+        "description": "",
+        "id": "register;verify-user-should-navigate-to-register-page--successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 756291100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User on homepage",
+            "match": {
+              "location": "MyStepsLogin.user_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 654279800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on register link",
+            "match": {
+              "location": "MyStepsRegister.user_click_on_register_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verify Register Text \"Register\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Register",
+                  "offset": 27
+                }
+              ],
+              "location": "MyStepsRegister.userVerifyRegisterText(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5905743800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "verify That FirstName LastName Email Password and ConfirmPassword Fields are Mandatory",
+        "description": "",
+        "id": "register;verify-that-firstname-lastname-email-password-and-confirmpassword-fields-are-mandatory",
+        "after": [
+          {
+            "result": {
+              "duration": 1009698100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 839309800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on Register link",
+            "match": {
+              "location": "MyStepsRegister.userClickOnRegisterLink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20101643500,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#FirstName\\-error\"}\n  (Session info: chrome\u003d110.0.5481.96)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.6.0\u0027, revision: \u002779f1c02ae20\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [6635b46e3b0146e1653c61ddc23a521d, findElement {using\u003did, value\u003dFirstName-error}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.96, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\\Users\\alpes\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53315}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53315/devtoo..., se:cdpVersion: 110.0.5481.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6635b46e3b0146e1653c61ddc23a521d\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy23.getText(Unknown Source)\r\n\tat com.nopcommerce.demo.utility.Utility.getTextFromElement(Utility.java:63)\r\n\tat com.nopcommerce.demo.pages.RegisterPage.Firstnamerequired(RegisterPage.java:153)\r\n\tat com.nopcommerce.demo.steps.MyStepsRegister.userClickOnFirstNameIsRequired(MyStepsRegister.java:28)\r\n\tat ✽.And User click on First name is required \"\"(src/test/java/resources/featurefile/Register.feature:10)\r\n",
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "User click on First name is required \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 38
+                }
+              ],
+              "location": "MyStepsRegister.userClickOnFirstNameIsRequired(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User click on Last name is required \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 37
+                }
+              ],
+              "location": "MyStepsRegister.userClickOnLastNameIsRequired(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User click on Email is required\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 32
+                }
+              ],
+              "location": "MyStepsRegister.userClickOnEmailIsRequired(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User click on Password  is required\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 36
+                }
+              ],
+              "location": "MyStepsRegister.userClickOnPasswordIsRequired(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User click on Confirmpassword  is required \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 44
+                }
+              ],
+              "location": "MyStepsRegister.userClickOnConfirmpasswordIsRequired(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6517559900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "verify That User Should Create Account Successfully",
+        "description": "",
+        "id": "register;verify-that-user-should-create-account-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 759126900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1136319600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User click on Register link",
+            "match": {
+              "location": "MyStepsRegister.userClickOnRegisterLink()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 98585600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click on maleradiobutton",
+            "match": {
+              "location": "MyStepsRegister.userClickOnMaleradiobutton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 76135300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User click on femaleradiobutton",
+            "match": {
+              "location": "MyStepsRegister.userClickOnFemaleradiobutton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 97969200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click on Firstnamefield \"bat\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bat",
+                  "offset": 30
+                }
+              ],
+              "location": "MyStepsRegister.userClickOnFirstnamefield(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83919500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User click on Lastnamefield \"patel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "patel",
+                  "offset": 29
+                }
+              ],
+              "location": "MyStepsRegister.userClickOnLastnamefield(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135524900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click on Dateofbirthbutton \"14\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "14",
+                  "offset": 33
+                }
+              ],
+              "location": "MyStepsRegister.userClickOnDateofbirthbutton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 788246800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User click on Monthofbirthbutton \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 34
+                }
+              ],
+              "location": "MyStepsRegister.userClickOnMonthofbirthbutton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140983700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User click on Yearofbirthbutton \"1930\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1930",
+                  "offset": 33
+                }
+              ],
+              "location": "MyStepsRegister.userClickOnYearofbirthbutton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84709100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click on enterEmailfield \"bat@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bat@gmail.com",
+                  "offset": 31
+                }
+              ],
+              "location": "MyStepsRegister.userClickOnEnterEmailfield(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67649300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User click on entrepasswordfieldfield \"191919\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "191919",
+                  "offset": 39
+                }
+              ],
+              "location": "MyStepsRegister.userClickOnEntrepasswordfieldfield(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96891200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user click on entreConfirmpasswordfield \"191919\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "191919",
+                  "offset": 41
+                }
+              ],
+              "location": "MyStepsRegister.userClickOnEntreConfirmpasswordfield(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101606300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click on Registerbutton",
+            "match": {
+              "location": "MyStepsRegister.userClickOnRegisterbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User verify message  Your Registration completed",
+            "match": {
+              "location": "MyStepsRegister.userVerifyMessageYourRegistrationCompleted()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Register",
+    "description": "User should able to Register successfully",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefile/Register.feature"
+  }
+]
